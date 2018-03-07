@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+fieldset, img {
+border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+address, caption, cite, code, dfn,
+em,i, strong, th, var, optgroup {
+font-style: normal;
+font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-weight: normal;
+}
+abbr, acronym {
+border: 0;
+font-variant: normal;
+}
+
+input, button, textarea,
+select, optgroup, option {
+font-family: inherit;
+font-size: inherit;
+font-style: inherit;
+font-weight: inherit;
+}
+code, kbd, samp, tt {
+font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+*font-size: 100%;
+}
+body {
+line-height: 1.5;
+font-family: "微软雅黑";
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+caption, th {
+text-align: left;
+}
+sup, sub {
+font-size: 100%;
+vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {
+text-decoration: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+.clearfix:before,.clearfix:after{
+ display:table;
+ content:"";}
+.clearfix:after{
+ clear:both;}
+.clearfix{zoom:1;}
+
+/*内边距*/
+.pad_lbrt{ padding:10px;}
+.pad_lbr{ padding:10px; padding-top:0px;}
+.pad_t{ padding-top:10px;}
+.pad_b{ padding-bottom:10px;}
+.pad_l{padding-left:10px;}
+.pad_r{padding-right:10px;}
+.pad_tb{ padding-top:10px; padding-bottom:10px;}
+.pad_lr{ padding-left:10px;padding-right:10px;}
+.pad_t2{ padding-top:20px;}
+.pad_b2{ padding-bottom:20px;}
+.pad_l2{padding-left:20px;}
+.pad_r2{padding-right:20px;}
+.pad_tb2{ padding-top:10px; padding-bottom:20px;}
+.pad_lr2{ padding-left:20px;padding-right:20px;}
+.pad_lbrt2{ padding:20px;}
+
+/*外边距*/
+.mar_t{ margin-top:10px;}
+.mar_l{ margin-left:10px;}
+.mar_r{ margin-right:10px;}
+.mar_b{ margin-bottom:10px;}
+.mar_lbr{ margin:10px; margin-top:0px;}
+.mar_lbrt{ margin:10px;}
+.mar_lr{ margin-left:10px; margin-right:10px;}
+.mar_tb{ margin-top:10px; margin-bottom:10px;}
+.mar_n{ margin:0px;}
+.mar_t2{ margin-top:20px;}
+.mar_b2{ margin-bottom:20px;}
+.mar_tb2{ margin-top:20px; margin-bottom:20px;}
+.mar_l2{ margin-left:20px;}
+.mar_r2{ margin-right:20px;}
+.mar_lr2{ margin-left:20px; margin-right:20px;}
+.mar_lbrt2{ margin:20px;}
+
+/*边框*/
+.box_l{ border-left:1px solid #ccc;}
+.box_t{ border-top:1px solid #ccc;}
+.box_r{ border-right:1px solid #ccc;}
+.box_b{ border-bottom:1px solid #ccc;}
+.box_lbr{ border:1px solid #ccc; border-top:none;}
+.box_lbrt{ border:1px solid #ccc; }
+.box_lrt{ border:1px solid #ccc; border-bottom:none}
+.box_lr{ border-left:1px solid #ccc; border-right:1px solid #ccc; }
+.box_tb{ border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+.box_n{ border:none;}
+
+/*浮动*/
+.fl{float:left;}  
+.fr{float:right;}  
+
+/*对齐*/
+.tac{ text-align: center;}
+.tar{text-align: right;}
