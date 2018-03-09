@@ -1,4 +1,4 @@
-module.exports = {
+
     // 框架菜单
     menu: [{
         menuId: 0,
@@ -89,4 +89,3 @@ module.exports = {
         download: '下载',
         resetPassword: '重置密码'
     }
-};
