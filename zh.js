@@ -1,6 +1,4 @@
-
-    // 框架菜单
-    menu: [{
+menu: [{
         menuId: 0,
         home: '首页',
         menuName: '主数据中心',
